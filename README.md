@@ -1,7 +1,7 @@
 # angular-multicheckbox-tree
 a tree with multi checkbox ,can slide toggle
 #denpencies
-jquery 1.7 or later
+jquery 1.7 or later<br />
 angular 1.2 or later
 #parameters
 inputModel like
@@ -41,5 +41,5 @@ inputModel like
         id:6,
         name:'stark',
         checked:true
-    }]
+    }]<br />
 outputModel is a json array which must be definded in controller
