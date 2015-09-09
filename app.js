@@ -1,0 +1,45 @@
+(function() {
+  'use strict';
+  angular.module('app', ['app.checktree']
+  )
+  .controller('myCtrl',['$scope',function($scope){
+  	$scope.mydata=[{
+        id:1,
+        name:'jonh',
+        checked:false,
+        children:[
+            {
+                id:2,
+                name:'jack',
+                checked:false,
+                children:[{
+                    id:7,
+                    name:'rose',
+                    checked:false
+                }]
+            },
+            {
+                id:3,
+                name:'fancy',
+                checked:false
+            }
+        ]
+    },{
+        id:4,
+        name:'mike',
+        checked:true,
+        children:[
+            {
+                id:5,
+                name:'susan',
+                checked:true
+            }
+        ]
+    },{
+        id:6,
+        name:'stark',
+        checked:true
+    }];
+    $scope.selectedData=[];
+  }]);
+}).call(this);
