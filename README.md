@@ -1,5 +1,6 @@
 # angular-multicheckbox-tree
-a tree with multi checkbox ,can slide toggle
+a tree with multi checkbox ,can slide toggle<br />
+<img src="http://static.zhiziyun.com/images/multicheck-tree.png" />
 #denpencies
 jquery 1.7 or later<br />
 angular 1.2 or later
